@@ -1,0 +1,123 @@
+.section_contacto_home{
+    width: 100%;
+    height: 25rem;
+    background-color: var(--fondo-contacto);
+    display: flex;
+    padding: 3rem;
+}
+
+.contacto_logo{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.div_logo{
+    width: 20%;
+    height: 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.cont_logo_img{
+    height: 100%;
+}
+
+.cont_logo_letra{
+    height: 70%;
+}
+
+.referencias{
+    width: 25%;
+    height: 100%;
+}
+
+.referencia_ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.referencia_li{
+    list-style: none;
+}
+
+.referencia_li a{
+    text-decoration: none;
+    color: #464646;
+    font-weight: 700;
+}
+
+.form_contacto{
+    width: 50%;
+    height: 100%;
+}
+
+.form_home{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form_home h2{
+    font-size: 1.2rem;
+}
+
+.form_label_input{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_label_input label{
+    width: 100%;
+    height: 2rem;
+    background-color: #fff;
+    padding: .5rem;
+    color: #A2A2A2;
+    font-size: .8rem;
+    border-radius: 10px 10px 0 0;
+}
+
+.form_label_input input{
+    width: 100%;
+    height: 2rem;
+    background-color: #fff;
+    padding: .5rem;
+    border: none;
+    outline: none;
+    border-radius: 0 0 10px 10px ;
+
+}
+
+.form_home textarea{
+    width: 100%;
+    height: 8rem;
+    background-color: #fff;
+    padding: .5rem;
+    border: none;
+    outline: none;
+    border-radius: 10px 10px 10px 10px ;
+    resize: none;
+}
+
+.form_home button{
+    width: 20%;
+    height: 3rem;
+    border: 1px solid var(--borde-btn);
+    outline: none;
+    color: var(--borde-btn);
+}
+
+
+
+

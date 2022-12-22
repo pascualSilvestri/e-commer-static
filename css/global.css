@@ -1,0 +1,21 @@
+:root{
+    --fondo:#f2f2f2;
+    --famyli:'Raleway', sans-serif;;
+    --fondo-nav:#ffffff;
+    --borde-btn:#2A7AE4;
+    --fondo-contacto:#EAF2FD;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--famyli);
+}
+
+body{
+    background-color: var(--fondo);
+    font-size: var(--famyli);
+    width: 100%;
+    height: auto;
+}

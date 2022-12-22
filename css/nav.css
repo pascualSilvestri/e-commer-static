@@ -1,0 +1,124 @@
+.nav_home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-width: 300px;
+    height: 4rem;
+    background-color: var(--fondo-nav);
+    padding: 0 4rem;
+}
+.nav_logo{
+    width: 20%;
+    height: 30%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 1.5rem;
+
+}
+
+.nav_logo_input{
+    width: 80%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.nav_logo_img{
+    height: 100%;
+}
+
+.nav_logo_letra{
+    height: 70%;
+}
+.nav_input{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--fondo); 
+    border-radius: 10px;
+}
+.nav_logo_input input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding-left: .8rem;
+    border: none;
+    background-color: inherit;
+    border-radius: 10px 0 0 10px;
+}
+
+.buscar{
+    height: 70%;
+    display: flex;
+    padding:.1rem ;
+    background-color:  inherit;
+    border-radius: 0 10px 10px 0;
+}
+
+.btn-login{
+    width: 10%;
+    min-width: 60px;
+    height: 70%;
+    border: 1px solid var(--borde-btn);
+    background-color: var(--fondo-nav);
+}
+
+.btn-login a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:var(--borde-btn);
+    font-weight: 700;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .nav_input{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .nav_home{
+
+        padding: 0 2rem;
+    }
+    .nav_logo_input{
+        width: 80%;
+        height:100%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+    }
+    
+    .buscar{
+        height: 70%;
+        display: flex;
+        padding:.1rem ;
+        background-color:  inherit;
+        border-radius: 10px 10px 10px 10px;
+    }
+    
+    .nav_input{
+        width: 10%;
+    }
+
+    .nav_input input{
+        display: none;
+    }
+
+    .btn-login{
+        margin-right: 2rem;
+    }
+}

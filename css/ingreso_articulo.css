@@ -1,0 +1,40 @@
+.main_ingreso_articulo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo_ingreso{
+    text-align: center;
+    margin: 3rem 0;
+}
+.ingreso_input{
+    margin-bottom: 2rem;
+}
+
+.ingreso_input select{
+    appearance: none;
+    width: 100%;
+    height: 2rem;
+    background-color: #fff;
+    padding: .5rem;
+    border: none;
+    outline: none;
+    border-radius: 0 0 10px 10px ;
+    display: flex;
+}
+
+.ingreso_input select::-ms-expand{
+
+}
+
+.option-ingreso{
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    padding: .5rem;
+    border: none;
+    outline: none;
+    border-radius:10px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/main/articulos.css" />
+    <link rel="stylesheet" href="../css/main/contacto.css" />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/ingreso_articulo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <title>Ingreso Articulo</title>
+</head>
+
+<body>
+    <nav class="nav_home">
+        <div class="nav_logo">
+            <img src="../img/Logo.png" alt="logo" class="nav_logo_img" />
+            <img src="../img/AluraGeek.png" alt="logo" class="nav_logo_letra" />
+            <img src="../img/Geek .png" alt="logo" class="nav_logo_letra" />
+        </div>
+        <div class="nav_logo_input">
+            <div class="nav_input">
+                <input type="text" placeholder="¿Que deseas buscar?" />
+                <img src="../img/Buscar.png" alt="buscar" class="buscar" />
+            </div>
+
+            <button class="btn-login" data-iniciar-sesion><a href="../login.html">Iniciar sesion</a></button>
+            <button class="btn-login" data-cerrar-sesion><a href="../index.html">Cerrar sesion</a></button>
+        </div>
+    </nav>
+    <main class="main_ingreso_articulo">
+        <div class="form_contacto">
+            <h2 class="titulo_ingreso">Ingreso de articulos</h2>
+            <form class="form_home" action="" method="post" data-form-ingreso>
+                <div class="form_label_input ingreso_input">
+                    <label for="nombre">Nombre del articulo</label>
+                    <input type="text" placeholder="Ingrese articulo" nombre-ingreso>
+                </div>
+                <div class="form_label_input ingreso_input">
+                    <label for="precio">Precio del articulo</label>
+                    <input type="text" placeholder="Ingrese preio del articulo"precio-ingreso>
+                </div>
+                <div class="form_label_input ingreso_input">
+                    <label for="categoria">Categoria del articulo</label>
+                    <select name="select" id="select" categoria-ingreso>
+                    </select>
+                </div>
+                <div class="form_label_input ingreso_input">
+                    <label for="img">nombre de la foto del articulo</label>
+                    <input type="text" placeholder="nombre de la foto del articulo" img-ingreso>
+                </div>
+                <button type="submit">Ingresar articulo</button>
+            </form>
+        </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="../controles/crear_articulos.js"></script>
+    <script type="module" src="../componentes/componentes.js"></script>
+    <script type="module" src="../servicios/servidor_cliente.js"></script>
+    <script type="module" src="../controles/mostrar_componentes.js"></script>
+    <script type="module" src="../controles/iniciar_sesion.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+.header_home{
+    width: 100%;
+    min-width: 300px;
+    height: 20rem;
+    background-image: url(/media/homgo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: var(--famyli);
+}
+
+.header_container{
+    width: 100%;
+    height: 60%;
+    padding:1rem 7rem 0 7rem
+}
+
+.titulo_container{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titulo_container h2{
+    color:#fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.titulo_container p{
+    color:#fff;
+}
+
+.btn_header{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.btn_header a{
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+    background-color: var(--borde-btn);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: .8rem;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .header_container{
+
+        padding:1rem 3rem 0 3rem
+    }
+    
+    .titulo_container h2{
+        font-size: 1.8rem;
+    }
+
+    .btn_header a{
+        font-size: .5rem;
+    }
+}
+
+@media only screen and (max-width: 554px){
+    .header_container{
+
+        padding:1rem 1.5rem 0 1.5rem
+    }
+    .titulo_container h2{
+        font-size: 1.5rem;
+    }
+    .btn_header a{
+        font-size: .5rem;
+    }
+}

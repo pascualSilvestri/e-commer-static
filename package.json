@@ -1,0 +1,10 @@
+{
+    "name": "admin",
+    "version": "1.0.0",
+    "description": "pagina e-commerce",
+    "main": "index.js",
+    "keywords": [
+        "Pascual"
+      ],
+      "author": "Pascual Silvestri"
+}
