@@ -119,5 +119,63 @@
 }
 
 
+@media screen and (max-width:780px) {
+    .section_contacto_home{
+        width: 100%;
+        height: auto;
+        background-color: var(--fondo-contacto);
+        display: flex;
+        padding: 3rem;
+        flex-direction: column;
+    }
+
+    .contacto_logo{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .referencias{
+        width: 100%;
+        height:auto;
+        margin: 2rem 0;
+
+    }
+
+    .referencia_ul{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .referencia_li{
+        list-style: none;
+        margin: .5rem 0;
+    }
+    
+
+    .form_contacto{
+        width: 100%;
+        height: auto;
+    }
+
+    .form_home h2{
+        font-size: 1.2rem;
+        margin:1rem 0;
+    }
+
+    .form_home button{
+        width: 40%;
+        height: 3rem;
+        border: 1px solid var(--borde-btn);
+        outline: none;
+        color: var(--borde-btn);
+        margin: 1rem 0;
+    }
+}
 
 
